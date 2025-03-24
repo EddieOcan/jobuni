@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+
+target 'JobUni' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JobUni
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Analytics'
+  pod 'FirebaseFirestoreSwift'
+  
+  # Uncomment the next line if you need real-time database
+  # pod 'Firebase/Database'
+  
+  # PDF Generation and handling
+  pod 'PDFKit'
+  
+  # Image handling
+  pod 'Kingfisher'
+  
+  # Optional: UI Enhancements
+  pod 'SkeletonView'        # For loading states
+  pod 'lottie-ios'          # For animations
+  
+  # Optional: Natural Language Processing if needed for on-device text improvement
+  # pod 'NaturalLanguage'
+
+end 
